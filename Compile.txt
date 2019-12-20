@@ -1,0 +1,2 @@
+sbt package
+spark-submit --master local[*] target/scala-2.11/wor.jar
